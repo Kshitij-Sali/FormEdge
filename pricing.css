@@ -1,0 +1,73 @@
+/* Pricing Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 600;
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+}
+  
+.navbar-brand img {
+width: 30px;
+margin-right: 8px;
+}
+  
+#pricing h2 {
+font-weight: bold;
+color: #333;
+}
+  
+#pricing .pricing-box {
+background-color: #f8f9fa;
+border-style: solid;
+border-color: #333;
+padding: 20px;
+border-radius: 8px;
+width: 50%;
+text-align: center;
+}
+  
+.pricing-box h3 {
+font-weight: bold;
+margin-top: 20px;
+}
+
+.pricing-box ul {
+list-style: none;
+padding: 0;
+}
+
+.pricing-box li {
+font-size: 16px;
+padding: 5px 0;
+}
+
+.price {
+margin-top: 20px;
+font-size: 24px;
+font-weight: bold;
+color: #007bff;
+}
+

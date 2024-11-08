@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder - FormEdge</title>
+    <link rel="stylesheet" href="formBuilder.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <header class="header d-flex justify-content-between align-items-center px-5">
+            <a href="C:/Users/Kshitij sali/OneDrive/Desktop/FormEdge/index.html">
+                <div class="logo">
+                    <img src="C:/Users/Kshitij sali/OneDrive/Desktop/FormEdge/Assests/logo.png" alt="Logo" class="image">
+                    <h4 style="color: black; text-decoration: none;">FormEdge</h4>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="C:/Users/Kshitij sali/OneDrive/Desktop/FormEdge/template.html" class="nav-link">Templates</a>
+                <a href="C:/Users/Kshitij sali/OneDrive/Desktop/FormEdge/pricing.html" class="nav-link">Pricing</a>
+                <a href="C:/Users/Kshitij sali/OneDrive/Desktop/FormEdge/help.html" class="nav-link">Help</a>
+            </nav>
+        </header>
+    </section>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between">
+            <h4>My Form</h4>
+            <button class="btn btn-primary" id="publishForm">Publish Form</button>
+        </div>
+        <div class="form-builder d-flex mt-3">
+            <div class="add-block mr-4">
+                <button class="btn btn-light btn-block mb-2">+ Add Block</button>
+                <ul class="list-unstyled">
+                    <li class="input-option">Text Input</li>
+                    <li class="input-option">Date Input</li>
+                    <li class="input-option">Email Input</li>
+                    <!-- Add other options as needed -->
+                </ul>
+            </div>
+            <div class="form-preview bg-dark text-white p-4 rounded" style="width: 100%;">
+                <h5 class="text-center">My Form</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Address">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

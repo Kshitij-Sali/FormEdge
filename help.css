@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 600;
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+}
+
+/* Customer Care Section */
+.customer-care-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.info, .contact-form {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2, .contact-form h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact-details li {
+    margin-bottom: 8px;
+}
+
+/* Form Styling */
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3;
+}
